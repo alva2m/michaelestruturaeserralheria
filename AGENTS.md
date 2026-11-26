@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project structure
+- Keep confirmed business details and editable general service categories in `src/lib/business.ts` so all contact links share one source.
+- Use separate content routes and shared presentation sections in `src/components/site.tsx` so navigation works without duplicate page markup.
+- Store supplied photographs as optimized WebP asset pointers; keep the browser favicon as a real public file for portable hosting.
