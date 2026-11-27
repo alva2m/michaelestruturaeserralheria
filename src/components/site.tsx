@@ -4,10 +4,10 @@ import { ArrowUpRight, ArrowRight, MapPin, Phone, Clock3, Menu, X, Frame, Boxes,
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { business, services, whatsappUrl } from '@/lib/business';
-import gate from '@/assets/trabalho-1.webp.asset.json';
-import roof from '@/assets/trabalho-2.webp.asset.json';
-import gateDetail from '@/assets/trabalho-3.webp.asset.json';
-import ladder from '@/assets/trabalho-4.webp.asset.json';
+const gate = { asset_id: 'trabalho-1', url: '/images/trabalho-1.webp' };
+const roof = { asset_id: 'trabalho-2', url: '/images/trabalho-2.webp' };
+const gateDetail = { asset_id: 'trabalho-3', url: '/images/trabalho-3.webp' };
+const ladder = { asset_id: 'trabalho-4', url: '/images/trabalho-4.webp' };
 
 const navigation = [
   { to: '/', label: 'Início' }, { to: '/sobre', label: 'A empresa' },
